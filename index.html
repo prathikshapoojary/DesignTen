@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+<style>
+.maindiv{
+    margin: 80px 180px 50px 180px;
+    border-width: 2px;
+    border-color: #F4BE2C;
+    border-style: solid;
+    box-shadow: 1px 1px 28px  rgba(19, 18, 18, 0.726);    
+    background-color:#ffc31f; 
+    padding-bottom: 20px; 
+    
+}
+body{
+    background-color:white;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 89%, 74% 89%, 75% 100%, 55% 90%, 0 90%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 89%, 74% 89%, 75% 100%, 55% 90%, 0 90%);
+}
+
+
+img{
+    padding-bottom:0px;
+    padding-left:0px;
+    padding-top: 0px;
+    border-radius: 30px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+ 
+  padding: 10px;
+}
+.grid-item {
+  padding: 0px;
+  font-size: 30px;
+  text-align: left;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-right: 5px;
+  padding-right: 30px;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 14px;
+}
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #f3e888;
+  background-color: #f7e19c;
+}
+
+
+.button4:hover {background-color: #f7e19c;}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #f3e888;
+}
+
+.button5:hover {background-color: #f7e19c;}
+</style>
+</head>
+<body>
+    <div class="maindiv">
+        <div class="container">
+           
+    <div class="grid-container">
+        <div class="grid-item"> <img src="music.png"  width=70% alt=""> </div>
+        <div class="grid-item">
+            <br>
+            <br>
+            <input type="text"></input><br>
+            <input type="text"></input><br>
+            <button class="button button4">Sign in</button>
+            <button class="button button5">Sign up</button>
+        </div>
+    </div>
+        
+      
+    </div>
+    
+</body>
+</html>
